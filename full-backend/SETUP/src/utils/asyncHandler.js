@@ -1,7 +1,3 @@
-import * as res from 'express/lib/response'
-import * as next from 'next'
-
-
 
 const asyncHandler = (requestHandler) =>{
     return (req, res, next) => {
